@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color:#bbb;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background:#353535;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.intro {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.intro img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.biography,
+.achievements,
+.quote {
+    margin: 20px 0;
+    color:#bbb;
+}
+
+h2 {
+    color: white;
+}
+
+.achievements ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.achievements li {
+    background:#272727;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid rgb(209, 202, 202);
+}
+
+.quote blockquote {
+    font-style: italic;
+    background: #272727;
+    padding: 10px;
+    border-left: 5px solid rgb(209, 202, 202);
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #272727;
+    color: #fff;
+}
+
+.More a{
+    color: rgb(216, 211, 211);
+}
